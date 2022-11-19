@@ -113,13 +113,17 @@ body {
         padding: 0 20px 0 20px;
     }
 
+    .text__primary {
+        font-size: 1.5rem;
+    }
+
     .text__primary, .text__info {
         text-align: left;
         padding-left: 0;
     }
 
     .text__info {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     .text__stats-info {
@@ -167,11 +171,18 @@ body {
     }
 
     .text__primary {
+        font-size: 1.9rem;
         padding: 0;
     }
 
     .text__info {
-        font-size: .9rem;
+        font-size: .8rem;
+        padding-right: 50px;
+    }
+
+    .text__stats {
+        font-size: 1.4rem;
+        padding-bottom: 10px;
     }
 
     .text__stats-info {
