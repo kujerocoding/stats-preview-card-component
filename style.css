@@ -20,4 +20,82 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: var(--FS);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--MAINBGCOLOR);
+}
+
+.main__container {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--CARDBGCOLOR);
+    border-radius: 10px;
+}
+
+.main__img-container {
+    width: 335px;
+}
+
+.main__img {
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.main__text-container {
+    text-align: center;
+}
+
+.text__primary, .text__stats {
+    font-family: var(--SECONDARYFONT);
+    color: var(--HEADINGCOLOR);
+    font-size: 1.9rem;
+}
+
+.text__info, .text__stats-info {
+    color: var(--STATHEADINGCOLOR);
+    font-family: var(--PRIMARYFONT);
+    font-size: 1rem;
+}
+
+.text__highlight {
+    color: var(--ACCENTCOLOR);
+}
+
+.text__primary {
+    padding: 30px 10px 0 10px;
+}
+
+.text__info {
+    padding: 20px 20px 30px;
+}
+
+.text__stats-info {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.text__stats {
+    padding: 10px;
+}
+
+.text__stats-info {
+    padding-bottom: 30px;
+}
+
+.attribution {
+    font-family: var(--SECONDARYFONT);
+    font-size: .7rem;
+    color: var(--PARAGRAPHCOLOR);
+}
+
+
+
     
