@@ -42,10 +42,14 @@ body {
 
 .main__img-container {
     width: 335px;
+    background-color: var(--ACCENTCOLOR);
+    border-radius: 10px 10px 0 0 ;
 }
 
 .main__img {
     width: 100%;
+    height: 100%;
+    filter: opacity(40%);
     border-radius: 10px 10px 0 0 ;
 }
 
@@ -90,7 +94,7 @@ body {
     padding-bottom: 30px;
 }
 
-.attribution {
+.attribution, .attribution a {
     font-family: var(--SECONDARYFONT);
     font-size: .7rem;
     color: var(--PARAGRAPHCOLOR);
