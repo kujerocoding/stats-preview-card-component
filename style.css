@@ -156,6 +156,33 @@ body {
     } 
     
 }
+
+@media screen and (min-width: 1024px) {
+    .main__container {
+        width: 1000px;
+    }
+
+    .main__text-container {
+        padding: 60px;
+    }
+
+    .text__primary {
+        padding: 0;
+    }
+
+    .text__info {
+        font-size: .9rem;
+    }
+
+    .text__stats-info {
+        padding-bottom: 0;
+    }
+
+    .text__all-stats-container {
+        padding-top: 50px;
+        gap: 50px;
+    }
+}
     
 
 
