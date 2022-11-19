@@ -79,6 +79,7 @@ body {
 
 .text__info {
     padding: 20px 20px 30px;
+    line-height: 1.5rem;
 }
 
 .text__stats-info {
@@ -99,6 +100,64 @@ body {
     font-size: .7rem;
     color: var(--PARAGRAPHCOLOR);
 }
+
+@media screen and (min-width: 768px){
+
+    .main__container {
+        flex-flow: row-reverse;
+        width: 700px;
+    }
+    
+    .main__text-container {
+        width: 50%;
+        padding: 0 20px 0 20px;
+    }
+
+    .text__primary, .text__info {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .text__info {
+        font-size: .8rem;
+    }
+
+    .text__stats-info {
+        font-size: .6rem;
+    }
+
+    .text__all-stats-container {
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .text__stats-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .text__stats {
+        font-size: 1.2rem;
+        padding: 0;
+
+    }
+
+     .main__img-container {
+        width: 50%;
+        border-radius: 0 10px 10px 0 ;
+    } 
+
+     .main__img {
+        content: url(/images/image-header-desktop.jpg);
+        border-radius: 0 10px 10px 0 ;
+    } 
+    
+}
+    
+
 
 
 
